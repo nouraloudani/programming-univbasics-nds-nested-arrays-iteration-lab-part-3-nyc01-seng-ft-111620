@@ -4,7 +4,7 @@ def join_nested_strings(src)
  outer_index = 0
   while outer_index < src.length do
    inner_index = 0
-   phrase = ""
+   phrase = []
     while inner_index < src[outer_index].length do 
       if src[outer_index][inner_index].class == String
         src[outer_index][inner_index]
@@ -14,5 +14,5 @@ def join_nested_strings(src)
     end  
   outer_index += 1  
   end  
- phrase
+ phrase.join('')
  end
