@@ -13,5 +13,5 @@ def join_nested_strings(src)
     end  
   outer_index += 1  
   end  
- phrase.join('')
+ phrase
  end
