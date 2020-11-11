@@ -8,7 +8,7 @@ def join_nested_strings(src)
     while inner_index < src[outer_index].length do 
       if src[outer_index][inner_index].class == String
         src[outer_index][inner_index]
-        phrase = src[outer_index][inner_index]
+        phrase += src[outer_index][inner_index]
      end
      inner_index += 1
     end  
